@@ -1,0 +1,21 @@
+# Site settings
+title: From Dropout to Coder
+header-img: img/home-bg.png
+email: gregscarroll@gmail.com
+copyright_name: gregorytcarroll
+description: > # this means to ignore newlines until "baseurl:"
+  Taking it one step at a time.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: GregglesCarroll
+github_username:  gregorytcarroll
+learn_profile: gregorytcarroll
+email_username: gregscarroll@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
